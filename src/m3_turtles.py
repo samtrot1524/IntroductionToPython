@@ -10,7 +10,7 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Sam.
 """
 ########################################################################
 #
@@ -88,6 +88,13 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
+# ----------------------------------------------------------------------
+matt = rg.SimpleTurtle('turtle')
+matt.pen = rg.Pen('red', 40)
+matt.speed = 20  # Faster
+matt.backward(40)
+matt.left(150)
+matt.forward(100)
 
 ########################################################################
 #
